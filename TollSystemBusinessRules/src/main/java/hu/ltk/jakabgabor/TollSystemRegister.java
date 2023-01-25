@@ -46,6 +46,7 @@ public class TollSystemRegister implements MotorwayVignetteRequestInterface, Veh
        List<MotorwayVignette> motorwayVignetteList =
                motorwayVignetteStorageInterface
                        .findByRegistrationNumber(registrationNumberResponseDTO.regNumber);
+
         MotorwayVignetteDTO motorwayVignetteDTO = new MotorwayVignetteDTO(vehicle, motorwayVignetteList);
         motorwayVignetteResponseInterface
                 .display(motorwayVignetteParser.parseMotorwayVignetteDTOToJson(motorwayVignetteDTO));
@@ -55,6 +56,8 @@ public class TollSystemRegister implements MotorwayVignetteRequestInterface, Veh
     @Override
     public void display(String vehicleJson) {
         motorwayVignetteValidator.validateVehicleJson(vehicleJson);
-        vehicle = motorwayVignetteParser.parseJsonToVehicle(vehicleJson);
+        Vehicle vehicle = motorwayVignetteParser.parseJsonToVehicle(vehicleJson);
+        motorwayVignetteValidator.checkVehicleIsNull(vehicle);
+        this.vehicle = vehicle;
     }
 }
