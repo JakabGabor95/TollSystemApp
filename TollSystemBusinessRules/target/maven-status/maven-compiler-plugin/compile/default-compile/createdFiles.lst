@@ -1,0 +1,11 @@
+hu/ltk/jakabgabor/entity/Vehicle.class
+hu/ltk/jakabgabor/parser/MotorwayVignetteParser.class
+hu/ltk/jakabgabor/TollSystemRegister.class
+hu/ltk/jakabgabor/validation/MotorwayVignetteValidator.class
+hu/ltk/jakabgabor/dto/RegistrationNumberResponseDTO.class
+hu/ltk/jakabgabor/dto/MotorwayVignetteDTO.class
+hu/ltk/jakabgabor/entity/MotorwayVignette.class
+hu/ltk/jakabgabor/api/MotorwayVignetteResponseInterface.class
+hu/ltk/jakabgabor/exception/InvalidRegistrationNumberException.class
+hu/ltk/jakabgabor/storage/MotorwayVignetteStorageInterface.class
+hu/ltk/jakabgabor/api/MotorwayVignetteRequestInterface.class

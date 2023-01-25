@@ -1,0 +1,11 @@
+/Users/macbookpro/Desktop/bootcamp/toll-system/TollSystemApp/TollSystemBusinessRules/src/main/java/hu/ltk/jakabgabor/entity/Vehicle.java
+/Users/macbookpro/Desktop/bootcamp/toll-system/TollSystemApp/TollSystemBusinessRules/src/main/java/hu/ltk/jakabgabor/dto/RegistrationNumberResponseDTO.java
+/Users/macbookpro/Desktop/bootcamp/toll-system/TollSystemApp/TollSystemBusinessRules/src/main/java/hu/ltk/jakabgabor/parser/MotorwayVignetteParser.java
+/Users/macbookpro/Desktop/bootcamp/toll-system/TollSystemApp/TollSystemBusinessRules/src/main/java/hu/ltk/jakabgabor/api/MotorwayVignetteResponseInterface.java
+/Users/macbookpro/Desktop/bootcamp/toll-system/TollSystemApp/TollSystemBusinessRules/src/main/java/hu/ltk/jakabgabor/validation/MotorwayVignetteValidator.java
+/Users/macbookpro/Desktop/bootcamp/toll-system/TollSystemApp/TollSystemBusinessRules/src/main/java/hu/ltk/jakabgabor/storage/MotorwayVignetteStorageInterface.java
+/Users/macbookpro/Desktop/bootcamp/toll-system/TollSystemApp/TollSystemBusinessRules/src/main/java/hu/ltk/jakabgabor/dto/MotorwayVignetteDTO.java
+/Users/macbookpro/Desktop/bootcamp/toll-system/TollSystemApp/TollSystemBusinessRules/src/main/java/hu/ltk/jakabgabor/api/MotorwayVignetteRequestInterface.java
+/Users/macbookpro/Desktop/bootcamp/toll-system/TollSystemApp/TollSystemBusinessRules/src/main/java/hu/ltk/jakabgabor/entity/MotorwayVignette.java
+/Users/macbookpro/Desktop/bootcamp/toll-system/TollSystemApp/TollSystemBusinessRules/src/main/java/hu/ltk/jakabgabor/exception/InvalidRegistrationNumberException.java
+/Users/macbookpro/Desktop/bootcamp/toll-system/TollSystemApp/TollSystemBusinessRules/src/main/java/hu/ltk/jakabgabor/TollSystemRegister.java

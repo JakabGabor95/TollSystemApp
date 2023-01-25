@@ -1,0 +1,93 @@
+package hu.ltk.jakabgabor.entity;
+
+import java.time.LocalDate;
+import java.util.Date;
+
+public class MotorwayVignette {
+    String registrationNumber;
+    String vehicleCategory;
+    String motorwayVignetteType;
+    float price;
+    Date validFrom;
+    Date validTo;
+    Date dateOfPurchase;
+
+    public MotorwayVignette(String registrationNumber, String vehicleCategory, String motorwayVignetteType, float price, Date validFrom, Date validTo, Date dateOfPurchase) {
+        this.registrationNumber = registrationNumber;
+        this.vehicleCategory = vehicleCategory;
+        this.motorwayVignetteType = motorwayVignetteType;
+        this.price = price;
+        this.validFrom = validFrom;
+        this.validTo = validTo;
+        this.dateOfPurchase = dateOfPurchase;
+    }
+
+    public String getRegistrationNumber() {
+        return registrationNumber;
+    }
+
+    public void setRegistrationNumber(String registrationNumber) {
+        this.registrationNumber = registrationNumber;
+    }
+
+    public String getVehicleCategory() {
+        return vehicleCategory;
+    }
+
+    public void setVehicleCategory(String vehicleCategory) {
+        this.vehicleCategory = vehicleCategory;
+    }
+
+    public String getMotorwayVignetteType() {
+        return motorwayVignetteType;
+    }
+
+    public void setMotorwayVignetteType(String motorwayVignetteType) {
+        this.motorwayVignetteType = motorwayVignetteType;
+    }
+
+    public float getPrice() {
+        return price;
+    }
+
+    public void setPrice(float price) {
+        this.price = price;
+    }
+
+    public Date getValidFrom() {
+        return validFrom;
+    }
+
+    public void setValidFrom(Date validFrom) {
+        this.validFrom = validFrom;
+    }
+
+    public Date getValidTo() {
+        return validTo;
+    }
+
+    public void setValidTo(Date validTo) {
+        this.validTo = validTo;
+    }
+
+    public Date getDateOfPurchase() {
+        return dateOfPurchase;
+    }
+
+    public void setDateOfPurchase(Date dateOfPurchase) {
+        this.dateOfPurchase = dateOfPurchase;
+    }
+
+    @Override
+    public String toString() {
+        return "MotorwayVignette{" +
+                "registrationNumber='" + registrationNumber + '\'' +
+                ", vehicleCategory='" + vehicleCategory + '\'' +
+                ", motorwayVignetteType='" + motorwayVignetteType + '\'' +
+                ", price=" + price +
+                ", validFrom=" + validFrom +
+                ", validTo=" + validTo +
+                ", dateOfPurchase=" + dateOfPurchase +
+                '}';
+    }
+}
